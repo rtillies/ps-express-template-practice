@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "static": "nodemon server_static.js",
-    "ejs": "nodemon server_ejs.js"
+    "ejs": "nodemon server_ejs.js",
+    "mustache": "nodemon server_mustache.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "nodemon": "^3.1.0"
   },
   "dependencies": {
-    "ejs": "^3.1.9"
+    "ejs": "^3.1.9",
+    "mustache-express": "^1.3.2"
   }
 }
