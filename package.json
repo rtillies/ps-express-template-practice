@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "static": "nodemon server_static.js",
     "ejs": "nodemon server_ejs.js",
-    "mustache": "nodemon server_mustache.js"
+    "mustache": "nodemon server_mustache.js",
+    "pug": "nodemon server_pug.js"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +20,7 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express-handlebars": "^7.1.2",
-    "mustache-express": "^1.3.2"
+    "mustache-express": "^1.3.2",
+    "pug": "^3.0.2"
   }
 }
